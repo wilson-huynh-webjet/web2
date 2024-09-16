@@ -1,18 +1,18 @@
 import { useState } from 'react'
 import './App.css'
 import ShareApp from '../shareweb/src/App'
-// import Button from '@webjet/react/components/Button'
+import Button from '@webjet/react/components/Button'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Main Web App</h1>
+      <h1>Main Web App 2</h1>
       <div className="card">
-        {/* <Button onClick={() => setCount((count) => count + 1)}>
+        <Button onClick={() => setCount((count) => count + 1)}>
           count is {count}
-        </Button>         */}
+        </Button>        
       </div>
       <p className="read-the-docs">
         <ShareApp />
